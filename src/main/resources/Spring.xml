@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://camel.apache.org/schema/spring 
+       http://camel.apache.org/schema/spring/camel-spring.xsd">
+	<bean id ="triangle" class="com.sudhir.spring.test.Triangle"/>
+	<bean id ="point" class="com.sudhir.spring.test.Point"/>
+	<bean id ="edge1" class="com.sudhir.spring.test.Edge">
+		<property name="elength" value="20"></property>
+	</bean>
+	<bean id="edge2" class ="com.sudhir.spring.test.Edge">
+		<property name="elength" value="20"></property>
+	</bean> 
+	<bean id="edge3" class="com.sudhir.spring.test.Edge">
+		<property name="elength" value="20"></property>
+	</bean>
+
+    </beans>
